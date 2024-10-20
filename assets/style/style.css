@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: thick double #32a1ce;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 30%; */
+  padding: 20px;
+}
+
+.img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.cardTitle {
+  font-weight: bold;
+}
